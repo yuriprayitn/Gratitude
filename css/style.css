@@ -85,25 +85,45 @@ body {
     background-image: linear-gradient(to bottom right, var(--dark-blue), var(--light-blue));
 }
 
-.container {
+header {
     color: var(--white);
-    margin: 30px 90px;
+    margin: 30px 60px;
     color: whitesmoke;
 }
 
-.container h1 {
+header h1 {
     font-size: xx-large;
     font-weight: bolder;
 }
 
-.container h2 {
+header h2 {
     font-size: x-large;
     font-weight: bold;
     margin-top: 3px;
 }
 
-.container p {
+header p {
     font-size: medium;
     margin-top: 12px;
-    width: 80%;
+    width: 82%;
+}
+
+.container {
+    /* background-color: var(--dark-blue); */
+    margin: 30px 90px;
+    color: whitesmoke;
+    display: flex;
+}
+
+.left-container {
+    flex: 60%;
+    background-color: var(--dark-blue);
+    margin-right: 30px;
+}
+
+.right-container {
+    flex: 30%;
+    right: 0;
+    background-color: var(--dark-blue);
+    margin-right: 30px;
 }
