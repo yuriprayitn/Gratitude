@@ -3,7 +3,7 @@
     --light-blue: #6bb9f0;
     --dark-blue: #2c3e50;
     --deep-blue: #1f2c38;
-    --white: #dcdde1;
+    --white: #b1b1b1;
 }
 
 * {
@@ -42,6 +42,7 @@ nav {
 
 .nav-section-1 a {
     color: var(--white);
+    font-size: medium;
 }
 
 .nav-section-1 a:hover {
@@ -52,9 +53,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
 }
 
-img {
+nav img {
     width: 42px;
     height: 42px;
     margin-left: -90px;
@@ -77,4 +79,31 @@ img {
 
 .nav-section-3 a:hover {
     color: white;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, var(--dark-blue), var(--light-blue));
+}
+
+.container {
+    color: var(--white);
+    margin: 30px 90px;
+    color: whitesmoke;
+}
+
+.container h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.container h2 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.container p {
+    font-size: medium;
+    margin-top: 12px;
+    width: 80%;
 }
