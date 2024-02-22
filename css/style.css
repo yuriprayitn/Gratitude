@@ -116,14 +116,34 @@ header p {
 }
 
 .left-container {
-    flex: 60%;
+    flex: 40%;
     background-color: var(--dark-blue);
     margin-right: 30px;
+    border-radius: 3px;
+}
+
+.left-container h2, .right-container h2 {
+    margin: 18px 30px 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.left-container p, .right-container p {
+    margin: 6px 30px 18px;
+    font-size: medium;
 }
 
 .right-container {
-    flex: 30%;
-    right: 0;
+    flex: 50%;
     background-color: var(--dark-blue);
-    margin-right: 30px;
+    border-radius: 3px;
+}
+
+.right-container a {
+    margin: 12px 30px;
+    color: var(--white);
+}
+
+.right-container a:hover {
+    color: whitesmoke;
 }
