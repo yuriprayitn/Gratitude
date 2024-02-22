@@ -3,6 +3,7 @@
     --light-blue: #6bb9f0;
     --dark-blue: #2c3e50;
     --deep-blue: #1f2c38;
+    --lighter-deep-blue: #213e58;
     --white: #b1b1b1;
 }
 
@@ -108,42 +109,94 @@ header p {
     width: 82%;
 }
 
-.container {
+.container-1 {
     /* background-color: var(--dark-blue); */
     margin: 30px 90px;
     color: whitesmoke;
     display: flex;
 }
 
-.left-container {
+.left-container-1 {
     flex: 40%;
     background-color: var(--dark-blue);
     margin-right: 30px;
     border-radius: 3px;
 }
 
-.left-container h2, .right-container h2 {
+.left-container-1 h2, .right-container-1 h2 {
     margin: 18px 30px 0;
     font-size: larger;
     font-weight: bold;
 }
 
-.left-container p, .right-container p {
+.left-container-1 p, .right-container-1 p {
     margin: 6px 30px 18px;
     font-size: medium;
 }
 
-.right-container {
+.right-container-1 {
     flex: 50%;
     background-color: var(--dark-blue);
     border-radius: 3px;
 }
 
-.right-container a {
+.right-container-1 a {
     margin: 12px 30px;
     color: var(--white);
 }
 
-.right-container a:hover {
+.right-container-1 a:hover {
+    color: whitesmoke;
+}
+
+.container-2 {
+    background-color: var(--lighter-deep-blue);
+    padding: 18px 60px;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.container-2 h2 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.container-2 p {
+    margin: 6px 0;
+    font-size: medium;
+}
+
+.container-2-section {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 24px;
+}
+
+.container-2-section-1 {
+    border: 1px solid var(--white);
+    border-radius: 6px;
+    margin-right: 18px;
+    /* height: 150px; */
+    padding: 12px;
+    background-color: #192d3f;
+}
+
+.container-2-section .contact {
+    width: 480px;
+}
+
+.container-2-section-1 table {
+    margin-top: 6px;
+}
+
+.container-2-section .visit-us, .container-2-section .follow-us {
+    width: 330px;
+}
+.visit-us a, .follow-us a, .connect a {
+    color: var(--white);
+    margin-bottom: 12px;
+}
+
+.visit-us a:hover, .follow-us a:hover, .connect a:hover {
     color: whitesmoke;
 }
