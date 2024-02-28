@@ -200,3 +200,49 @@ header p {
 .visit-us a:hover, .follow-us a:hover, .connect a:hover {
     color: whitesmoke;
 }
+
+.product {
+    background-image: linear-gradient(to top right, var(--dark-blue), var(--lighter-blueblue));
+    color: whitesmoke;
+    margin: 30px 60px;
+    padding: 0 0 30px;
+    border-bottom: 1px solid white;
+}
+
+.product h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+.product-section {
+    display: flex;
+}
+
+.product-section img {
+    border-radius: 3px;
+    margin-right: 30px;
+    width: 450px;
+    height: auto;
+}
+
+.product-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-section p {
+    font-size: large;
+    font-weight: normal;
+}
+
+.product-section a {
+    font-size: larger;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.product-section a:hover {
+    color: var(--lighter-blueblue);
+}
