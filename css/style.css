@@ -86,8 +86,7 @@ body {
     background-image: linear-gradient(to bottom right, var(--dark-blue), var(--light-blue));
 }
 
-header {
-    color: var(--white);
+.index {
     margin: 30px 60px;
     color: whitesmoke;
 }
@@ -321,4 +320,37 @@ header p {
 
 .blog-latest .news a:hover {
     color: var(--lighter-blueblue);
+}
+
+.about {
+    margin: 30px 60px;
+    color: whitesmoke;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
+
+.about-section1 {
+    color: whitesmoke;
+    margin: 0 60px;
+}
+.about-section1 h3 {
+    font-weight: normal;
+}
+
+.about-section1 h2 {
+    margin: 30px 0 6px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.about-section1 li {
+    margin-bottom: 6px;
+}
+
+.closing {
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--dark-blue), var(--deep-blue));
+    padding: 30px 0;
+    margin-top: 60px;
+    color: var(--white);
 }
